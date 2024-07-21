@@ -1,0 +1,818 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap");
+body {
+}
+
+.first-box {
+  background: url(https://th.bing.com/th/id/R.6d904bf850be7c40a307a7ef7e0f6f3b?rik=LbDJt%2fB6k%2fE5Jw&pid=ImgRaw&r=0);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  margin: -8px;
+}
+
+@media screen and (min-width: 854px) {
+  .box-container {
+    display: flex;
+  }
+}
+
+footer {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.updates-boxes {
+  display: flex;
+}
+
+.box {
+  background: rgba(0, 0, 0, 0.56);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.6px);
+  -webkit-backdrop-filter: blur(11.6px);
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.box button {
+  vertical-align: middle;
+}
+
+.second-box h1 {
+  text-align: center;
+}
+
+.second-box button {
+  padding: 10px;
+  margin: 20px;
+  background-color: #4b0082;
+  border: none;
+  border-radius: 20px;
+  width: 140px;
+  transition: background-color 1.2s;
+}
+
+.second-box button a {
+  font-family: "Gothic A1", sans-serif;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 800;
+  border-bottom: 1.5px solid transparent;
+  transition: border-bottom 1.2s;
+  padding-bottom: 3px;
+}
+
+.box button:hover {
+  background-color: #38035e;
+  transition: all 1.2s;
+}
+
+.box button a :hover {
+  border-bottom: 1.5px solid white;
+  transition: all 1.2s;
+}
+
+@media screen and (min-width: 853px) {
+  body {
+    background-color: #1a0026;
+    color: #ededed;
+    font-family: "Gothic A1", sans-serif;
+  }
+
+  .first-box {
+    background: url(https://th.bing.com/th/id/R.6d904bf850be7c40a307a7ef7e0f6f3b?rik=LbDJt%2fB6k%2fE5Jw&pid=ImgRaw&r=0);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    margin: -8px;
+  }
+
+  .name-brand {
+    margin-top: 5px;
+    color: #ededed;
+  }
+
+  .navbar {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+  }
+
+  nav {
+    margin-top: 10px;
+    display: flex;
+    vertical-align: middle;
+    list-style-type: none;
+  }
+
+  .pages-container {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .pages-container li {
+    margin-right: 15px;
+    text-decoration: none;
+  }
+
+  .pages-container a {
+    text-decoration: none;
+    color: #ededed;
+    font-weight: 700;
+  }
+
+  .button-container {
+    margin-top: -20px;
+  }
+
+  .sign-up-button {
+    padding: 10px;
+    margin: 20px;
+    background-color: #4b0082;
+    border: none;
+    border-radius: 20px;
+    width: 80px;
+    transition: background-color 1.2s;
+  }
+
+  .sign-up-button a {
+    font-family: "Gothic A1", sans-serif;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 800;
+    border-bottom: 1.5px solid transparent;
+    transition: border-bottom 1.2s;
+    padding-bottom: 3px;
+  }
+
+  .sign-up-button:hover {
+    background-color: #38035e;
+    transition: all 1.2s;
+  }
+
+  .sign-up-button a:hover {
+    border-bottom: 1.5px solid white;
+    transition: all 1.2s;
+  }
+
+  .text-container {
+    background: rgba(0, 0, 0, 0.56);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+    min-height: 50vh;
+  }
+
+  .first-section {
+    margin-top: 80px;
+    max-width: 63%;
+    margin-left: 80px;
+  }
+
+  .first-title {
+    font-size: 30px;
+    margin-bottom: -5px;
+  }
+
+  .start-now {
+    padding: 10px;
+    margin: 20px;
+    background-color: #4b0082;
+    border: none;
+    border-radius: 20px;
+    width: 130px;
+    transition: background-color 1.2s;
+  }
+
+  .start-now a {
+    font-family: "Gothic A1", sans-serif;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 800;
+    border-bottom: 1.5px solid transparent;
+    transition: border-bottom 1.2s;
+    padding-bottom: 3px;
+  }
+
+  .start-now:hover {
+    background-color: #38035e;
+    transition: all 1.2s;
+  }
+
+  .start-now a:hover {
+    border-bottom: 1.5px solid white;
+    transition: all 1.2s;
+  }
+  .updates-boxes {
+    display: flex;
+  }
+
+  .box {
+    background: rgba(0, 0, 0, 0.56);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .box button {
+    vertical-align: middle;
+  }
+
+  .second-box h1 {
+    text-align: center;
+  }
+
+  .second-box button {
+    padding: 10px;
+    margin: 20px;
+    background-color: #4b0082;
+    border: none;
+    border-radius: 20px;
+    width: 140px;
+    transition: background-color 1.2s;
+  }
+
+  .second-box button a {
+    font-family: "Gothic A1", sans-serif;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 800;
+    border-bottom: 1.5px solid transparent;
+    transition: border-bottom 1.2s;
+    padding-bottom: 3px;
+  }
+
+  .box button:hover {
+    background-color: #38035e;
+    transition: all 1.2s;
+  }
+
+  .box button a :hover {
+    border-bottom: 1.5px solid white;
+    transition: all 1.2s;
+  }
+}
+
+/* Media Queries for various devices */
+@media screen and (max-width: 853px) {
+  .first-box {
+    min-height: 60vh;
+  }
+  .first-title {
+    font-size: 30px;
+    margin-bottom: -5px;
+  }
+
+  .start-now {
+    padding: 10px;
+    margin: 20px;
+    background-color: #4b0082;
+    border: none;
+    border-radius: 20px;
+    width: 130px;
+    transition: background-color 1.2s;
+  }
+
+  .start-now a {
+    font-family: "Gothic A1", sans-serif;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 800;
+    border-bottom: 1.5px solid transparent;
+    transition: border-bottom 1.2s;
+    padding-bottom: 3px;
+  }
+
+  .start-now:hover {
+    background-color: #38035e;
+    transition: all 1.2s;
+  }
+
+  .start-now a:hover {
+    border-bottom: 1.5px solid white;
+    transition: all 1.2s;
+  }
+
+  .first-section {
+    max-width: 80%;
+    margin-left: 40px;
+  }
+  body {
+    background-color: #1a0026;
+    color: #ededed;
+    font-family: "Gothic A1", sans-serif;
+  }
+
+  .first-box {
+    background: url(https://th.bing.com/th/id/R.6d904bf850be7c40a307a7ef7e0f6f3b?rik=LbDJt%2fB6k%2fE5Jw&pid=ImgRaw&r=0);
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    margin: -8px;
+  }
+
+  .name-brand {
+    margin-top: 5px;
+    color: #ededed;
+  }
+
+  .navbar {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+  }
+
+  nav {
+    margin-top: 10px;
+    display: flex;
+    vertical-align: middle;
+    list-style-type: none;
+  }
+
+  .pages-container {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .pages-container li {
+    margin-right: 15px;
+    text-decoration: none;
+  }
+
+  .pages-container a {
+    text-decoration: none;
+    color: #ededed;
+    font-weight: 700;
+  }
+
+  .button-container {
+    margin-top: -20px;
+  }
+
+  .sign-up-button {
+    padding: 10px;
+    margin: 20px;
+    background-color: #4b0082;
+    border: none;
+    border-radius: 20px;
+    width: 80px;
+    transition: background-color 1.2s;
+  }
+
+  .sign-up-button a {
+    font-family: "Gothic A1", sans-serif;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 800;
+    border-bottom: 1.5px solid transparent;
+    transition: border-bottom 1.2s;
+    padding-bottom: 3px;
+  }
+
+  .sign-up-button:hover {
+    background-color: #38035e;
+    transition: all 1.2s;
+  }
+
+  .sign-up-button a:hover {
+    border-bottom: 1.5px solid white;
+    transition: all 1.2s;
+  }
+
+  .text-container {
+    background: rgba(0, 0, 0, 0.56);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+    min-height: 50vh;
+  }
+
+  .updates-boxes {
+    display: flex;
+  }
+
+  .box {
+    background: rgba(0, 0, 0, 0.56);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .box button {
+    vertical-align: middle;
+  }
+
+  .second-box h1 {
+    text-align: center;
+  }
+
+  .second-box button {
+    padding: 10px;
+    margin: 20px;
+    background-color: #4b0082;
+    border: none;
+    border-radius: 20px;
+    width: 140px;
+    transition: background-color 1.2s;
+  }
+
+  .second-box button a {
+    font-family: "Gothic A1", sans-serif;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 800;
+    border-bottom: 1.5px solid transparent;
+    transition: border-bottom 1.2s;
+    padding-bottom: 3px;
+  }
+
+  .box button:hover {
+    background-color: #38035e;
+    transition: all 1.2s;
+  }
+
+  .box button a :hover {
+    border-bottom: 1.5px solid white;
+    transition: all 1.2s;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .first-box {
+    min-height: 60vh;
+  }
+  .first-title {
+    font-size: 30px;
+    margin-bottom: -5px;
+  }
+
+  .start-now {
+    padding: 10px;
+    margin: 20px;
+    background-color: #4b0082;
+    border: none;
+    border-radius: 20px;
+    width: 130px;
+    transition: background-color 1.2s;
+  }
+
+  .start-now a {
+    font-family: "Gothic A1", sans-serif;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 800;
+    border-bottom: 1.5px solid transparent;
+    transition: border-bottom 1.2s;
+    padding-bottom: 3px;
+  }
+
+  .start-now:hover {
+    background-color: #38035e;
+    transition: all 1.2s;
+  }
+
+  .start-now a:hover {
+    border-bottom: 1.5px solid white;
+    transition: all 1.2s;
+  }
+
+  .first-section {
+    max-width: 80%;
+    margin-left: 40px;
+  }
+  body {
+    background-color: #1a0026;
+    color: #ededed;
+    font-family: "Gothic A1", sans-serif;
+  }
+
+  .first-box {
+    background: url(https://th.bing.com/th/id/R.6d904bf850be7c40a307a7ef7e0f6f3b?rik=LbDJt%2fB6k%2fE5Jw&pid=ImgRaw&r=0);
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    margin: -8px;
+  }
+
+  .name-brand {
+    margin-top: 5px;
+    color: #ededed;
+  }
+
+  .navbar {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+  }
+
+  nav {
+    margin-top: 10px;
+    display: flex;
+    vertical-align: middle;
+    list-style-type: none;
+  }
+
+  .pages-container {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .pages-container li {
+    margin-right: 15px;
+    text-decoration: none;
+  }
+
+  .pages-container a {
+    text-decoration: none;
+    color: #ededed;
+    font-weight: 700;
+  }
+
+  .button-container {
+    margin-top: -20px;
+  }
+
+  .sign-up-button {
+    padding: 10px;
+    margin: 20px;
+    background-color: #4b0082;
+    border: none;
+    border-radius: 20px;
+    width: 80px;
+    transition: background-color 1.2s;
+  }
+
+  .sign-up-button a {
+    font-family: "Gothic A1", sans-serif;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 800;
+    border-bottom: 1.5px solid transparent;
+    transition: border-bottom 1.2s;
+    padding-bottom: 3px;
+  }
+
+  .sign-up-button:hover {
+    background-color: #38035e;
+    transition: all 1.2s;
+  }
+
+  .sign-up-button a:hover {
+    border-bottom: 1.5px solid white;
+    transition: all 1.2s;
+  }
+
+  .text-container {
+    background: rgba(0, 0, 0, 0.56);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+    min-height: 50vh;
+  }
+
+  .updates-boxes {
+    display: block;
+  }
+
+  .box {
+    background: rgba(0, 0, 0, 0.56);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .box button {
+    vertical-align: middle;
+  }
+
+  .second-box h1 {
+    text-align: center;
+  }
+
+  .second-box button {
+    padding: 10px;
+    margin: 20px;
+    background-color: #4b0082;
+    border: none;
+    border-radius: 20px;
+    width: 140px;
+    transition: background-color 1.2s;
+  }
+
+  .second-box button a {
+    font-family: "Gothic A1", sans-serif;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 800;
+    border-bottom: 1.5px solid transparent;
+    transition: border-bottom 1.2s;
+    padding-bottom: 3px;
+  }
+
+  .box button:hover {
+    background-color: #38035e;
+    transition: all 1.2s;
+  }
+
+  .box button a :hover {
+    border-bottom: 1.5px solid white;
+    transition: all 1.2s;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .first-section {
+    max-width: 90%;
+    margin-left: 20px;
+    text-align: center;
+    height: 30vh;
+  }
+  body {
+    background-color: #1a0026;
+    color: #ededed;
+    font-family: "Gothic A1", sans-serif;
+  }
+
+  .first-box {
+    background: url(https://th.bing.com/th/id/R.6d904bf850be7c40a307a7ef7e0f6f3b?rik=LbDJt%2fB6k%2fE5Jw&pid=ImgRaw&r=0);
+    height: 130vh;
+    background-position: center;
+    background-size: cover;
+    margin: -8px;
+  }
+
+  .name-brand {
+    margin-top: 5px;
+    color: #ededed;
+    display: none;
+  }
+
+  .navbar {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+  }
+
+  nav {
+    margin-top: 10px;
+    display: flex;
+    vertical-align: middle;
+    list-style-type: none;
+  }
+
+  .pages-container {
+    display: flex;
+  }
+
+  .pages-container li {
+    margin-bottom: 10px;
+  }
+
+  .pages-container li {
+    margin-right: 15px;
+    text-decoration: none;
+  }
+
+  .pages-container a {
+    text-decoration: none;
+    color: #ededed;
+    font-weight: 700;
+  }
+
+  .button-container {
+    margin-top: -17px;
+  }
+  .sign-up-button {
+    padding: 10px;
+    margin: 20px;
+    background-color: #4b0082;
+    border: none;
+    border-radius: 20px;
+    width: 80px;
+    transition: background-color 1.2s;
+  }
+
+  .sign-up-button a {
+    font-family: "Gothic A1", sans-serif;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 800;
+    border-bottom: 1.5px solid transparent;
+    transition: border-bottom 1.2s;
+    padding-bottom: 3px;
+  }
+
+  .sign-up-button:hover {
+    background-color: #38035e;
+    transition: all 1.2s;
+  }
+
+  .sign-up-button a:hover {
+    border-bottom: 1.5px solid white;
+    transition: all 1.2s;
+  }
+
+  .text-container {
+    background: rgba(0, 0, 0, 0.56);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+  }
+
+  .updates-boxes {
+    display: block;
+  }
+
+  .box {
+    background: rgba(0, 0, 0, 0.56);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .box button {
+    vertical-align: middle;
+  }
+
+  .second-box h1 {
+    text-align: center;
+  }
+
+  .second-box button {
+    padding: 10px;
+    margin: 20px;
+    background-color: #4b0082;
+    border: none;
+    border-radius: 20px;
+    width: 140px;
+    transition: background-color 1.2s;
+  }
+
+  .second-box button a {
+    font-family: "Gothic A1", sans-serif;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 800;
+    border-bottom: 1.5px solid transparent;
+    transition: border-bottom 1.2s;
+    padding-bottom: 3px;
+  }
+
+  .box button:hover {
+    background-color: #38035e;
+    transition: all 1.2s;
+  }
+
+  .box button a :hover {
+    border-bottom: 1.5px solid white;
+    transition: all 1.2s;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .first-box {
+    min-height: 150vh;
+  }
+
+  .first-title {
+    font-size: 20px;
+  }
+
+  .sign-up-button {
+    width: 120px;
+  }
+
+  .start-now {
+    width: 170px;
+  }
+
+  .first-section {
+    max-width: 100%;
+    margin-left: 5px;
+  }
+}
